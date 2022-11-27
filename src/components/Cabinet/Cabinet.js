@@ -38,62 +38,17 @@ function Cabinet(props) {
             <div className={classes.sectionGrid}>
               <div className={classes.sectionCell}>
                 <h3 className={classes.sectionH3}>Общая информация</h3>
-                <h4 className={classes.sectionBoldText}>Фамилия</h4>  
                 <p className={classes.sectionP}>
-                  {user.lastName}
+                  {user.inn}
                 </p>
-                <p className={classes.sectionP}>
-                  {user.firstName}
-                </p>
-                <p className={classes.sectionP}>
-                  {user.patrName}
-                </p>  
                 <p className={classes.sectionP}>{user.email}</p>
                 <p className={classes.sectionP}>{user.phoneNumber}</p>
-              </div>
-              <div className={classes.sectionCell}>
-                <h3 className={classes.sectionH3}>Newsletters</h3>
-                <p className={classes.sectionP}>
-                  You don't subscribe to our newsletter.
-                </p>
-              </div>
-              <div>
-                <button
-                  className={classes.sectionLink}
-                >
-                  Edit
-                </button>
-                <button
-                  className={classes.sectionLink}
-                >
-                  Change password
-                </button>
-              </div>
-              <div>
-                <button
-                  className={classes.sectionLink}
-                >
-                  Edit
-                </button>
               </div>
             </div>
           </TabPanel>
           <TabPanel index={2}>
             <h2 className={classes.sectionH2}>Управление представителями</h2>
             <div className={classes.sectionGrid}>
-              <div className={classes.sectionCell}>
-                <h3 className={classes.sectionH3}>Create new brand</h3>
-              </div>
-              <div className={classes.sectionCell}>
-                <h3 className={classes.sectionH3}>Edit brand</h3>
-              </div>
-              <div>
-                <button
-                  className={classes.sectionLink}
-                >
-                  Check availability
-                </button>
-              </div>
             </div>
           </TabPanel>
           <TabPanel index={3}>
@@ -172,9 +127,10 @@ function Cabinet(props) {
           </TabPanel>
           <TabPanel index={2}>
             <h2 className={classes.sectionH2}>Рассмотрение заявок</h2>
-            <div>
-              <Event name="kekis" description="keikiks" partner='chad' responsible='giga' status='404' date='tooo' />
-            </div>
+              <Event name="event" description="Some cool event" partner='OOO BASED' responsible='GigaChad' status='404' date='27.11.2022' />
+              <Event name="event" description="Some cool event" partner='OOO BASED' responsible='GigaChad' status='404' date='27.11.2022' />
+              <Event name="event" description="Some cool event" partner='OOO BASED' responsible='GigaChad' status='404' date='27.11.2022' />
+
           </TabPanel>
           <TabPanel index={3}>
               <h2 className={classes.sectionH2}>История рассмотренных заявок</h2>

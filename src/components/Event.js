@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 function Event(props) {
   return (
@@ -27,6 +28,8 @@ function Event(props) {
         <h4 className='event__subheader'>Статус:</h4>
         <p className='event__text'>{props.status}</p>
       </div>
+      <Button variant="success">Одобрить</Button>{' '}
+      <Button variant="danger">Отклонить</Button>{' '}
     </div>
   );
 }

@@ -38,7 +38,7 @@ export function TabList({ className, ...props }) {
 
 export function TabPanels(props) {
   return (
-    <div>
+    <div style={{'width':'100%'}}>
       {props.children.filter((item) => {
         return item.props.index === props.selected;
       })}
