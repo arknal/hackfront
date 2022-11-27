@@ -1,0 +1,31 @@
+.tabs {
+  margin: 0;
+  width: 326px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #f5f7ff;
+  margin-right: 50px;
+}
+.tabItem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+  cursor: pointer;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  transition: opacity .4s;
+}
+.tabItem:hover {
+  opacity: .6;
+}
+.tabItemActive {
+  border-left: 3px solid #0156ff;
+  padding-left: 17px;
+  color: #212121;
+  font-weight: 600;
+}

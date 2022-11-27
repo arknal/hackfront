@@ -1,0 +1,92 @@
+.sectionH2 {
+  margin: 0;
+  padding-bottom: 21px;
+  border-bottom: 2px solid #cacdd8;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 147.5%;
+  color: #212121;
+}
+.sectionBoldText {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.sectionGrid {
+  margin-bottom: 54px;
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  max-width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 17px;
+}
+.sectionCell {
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+.sectionH3 {
+  margin: 0 0 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.sectionP {
+  margin: 0 0 5px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+}
+.sectionP:last-of-type {
+  margin: 0 0 40px;
+}
+
+.sectionLink {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  width: auto;
+  margin-right: 24px;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #0156FF;
+  transition: opacity .4s;
+}
+.sectionLink:first-of-type {
+  margin: 0 0 0 8px;
+}
+.sectionLink:hover {
+  opacity: .8;
+}
+.sectionBtn {
+  margin-right: 20px;
+}
+.sectionSelect {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 2px solid #A2A6B0;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.sectionSelect:focus {
+  border: 2px solid #0156FF;
+}

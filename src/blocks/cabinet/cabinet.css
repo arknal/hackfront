@@ -1,0 +1,7 @@
+.cabinet {
+  display: flex;
+  font-family: "Inter";
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding: 130px 0;
+}

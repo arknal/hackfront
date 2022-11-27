@@ -1,0 +1,13 @@
+.footer {
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #1D4776; 
+  border-radius: 16px 16px 0 0;
+  padding: 25px 50px;
+}
+@media (max-width: 900px) {
+  .footer {
+    padding: 0 19px 0;
+  }
+}

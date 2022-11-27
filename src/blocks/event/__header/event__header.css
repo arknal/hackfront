@@ -1,0 +1,14 @@
+.event__header {
+  width: 100%;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+.event__subheader {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.event__text {
+  font-size: 14px;
+}
